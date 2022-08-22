@@ -1,0 +1,22 @@
+/* .traffic__frature--part{
+    transform: translateY(50%);
+} */
+
+.traffic__para {
+    font-family: var(--nunito);
+    font-size: var(--parafontsize);
+    font-weight: var(--regular);
+    color: var(--black);
+    margin-bottom: 87px;
+    text-transform: capitalize;
+    width: 610px;
+    line-height: 200%;
+    padding-top: 24px;
+    padding-right: 200px;
+    transform: translateY(55%);
+}
+
+.feature__traffic {
+    transform: translateY(100px);
+}
+

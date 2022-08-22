@@ -1,0 +1,30 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style: none ;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1410px;
+    margin: 0 auto;
+}
+.title__subheading{
+    font-family: var(--nunito);
+    font-size: var(--subheading);
+    font-weight: var(--medium);
+    color: var(--primary);
+}
+.title__heading{
+    font-family: var(--poppins);
+    font-size: var(--heading);
+    font-weight: var(--semibold);
+    color: var(--black);
+}
+
+
+

@@ -1,0 +1,129 @@
+.box{
+    display: flex;
+    
+}
+
+.boxOne{
+    width: 330px;
+    height: 210px;
+    background: var(--orange);
+    margin-right: 30px;
+    border-radius: 14px;
+}
+
+.boxTwo{
+    width: 330px;
+    height: 210px;
+    background: var(--primarylight);
+    margin-right: 30px;
+    border-radius: 14px;
+}
+.boxThree{
+    width: 330px;
+    height: 210px;
+    background: var(--greenlight);
+    margin-right: 30px;
+    border-radius: 14px;
+}
+.boxFour{
+    width: 330px;
+    height: 210px;
+    background: var(--orangelight);
+    margin-right: 30px;
+    border-radius: 14px;
+}
+.boxOne__logoOne{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    margin: 38px 131px 104px 131px;
+}
+
+.boxOne__subheading{
+    font-family: var(--poppins);
+    font-size: var(--subheading);
+    font-weight: var(--medium);
+    color: var(--white);
+    position: absolute;
+    margin-top: 136px;
+     margin-left: 40px;
+}
+.boxTwo__subheading{
+    font-family: var(--poppins);
+    font-size: var(--subheading);
+    font-weight: var(--medium);
+    color: var(--black);
+    position: absolute;
+    margin-top: 136px;
+     margin-left: 40px;
+}
+.boxThree__subheading{
+    font-family: var(--poppins);
+    font-size: var(--subheading);
+    font-weight: var(--medium);
+    color: var(--black);
+    position: absolute;
+    margin-top: 136px;
+     margin-left: 40px;
+}
+.boxFour__subheading{
+    font-family: var(--poppins);
+    font-size: var(--subheading);
+    font-weight: var(--medium);
+    color: var(--black);
+    position: absolute;
+    margin-top: 136px;
+     margin-left: 40px;
+}
+.shape {
+    display: flex;
+    width: 60px;
+    height: 600px;
+    background: var(--orange);
+    clip-path: polygon(43% 20%, 0 0, 100% 0);
+    margin-top: 170px;
+    margin-left: 125px;
+}
+
+.realTime__part{
+    margin-top: 160px;
+    margin-left: 110px;
+    display: flex;
+}
+
+.time__para {
+    font-family: var(--nunito);
+    font-size: var(--parafontsize);
+    font-weight: var(--regular);
+    color: var(--black);
+    text-transform: capitalize;
+    width: 610px;
+    line-height: 200%;
+    padding-top: 24px;
+}
+
+.realTime__analytics{
+    margin-left: 130px;
+}
+
+.realTime__button{
+    width: 20%;
+    text-align: right;
+    padding-top: 20px;
+}
+.realTime__button--primary {
+    color: var(--white);
+    padding: 30px 30px;
+    background: var(--primary);
+    font-family: var(--nunito);
+    font-weight: var(--semibold);
+    font-size: var(--parafontsize);
+    border-radius: 18px;
+    border: 1px solid white;
+    transition: .4s;
+    margin: -500px;
+}
+.realTime__button--primary:hover{
+    background: var(--primarylight);
+    color: var(--black);
+}

@@ -1,0 +1,126 @@
+.banner{
+    background: url("../images/banner.png");
+    height: 1200px;
+    overflow-x: hidden;
+    position: relative;
+}
+.banner__cloud1{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    animation: c1 1.5s infinite alternate linear;
+}
+
+
+
+.banner__cloud2{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: c2 1.5s infinite alternate linear;
+}
+
+
+.banner__cloud3{
+    width: 100%;
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    animation: c1 1.5s infinite alternate linear;
+}
+@keyframes c1{
+    from{
+        left: -20px;
+    }to{
+        left: 20px;
+    }
+}
+
+@keyframes c2{
+    from{
+        left: 0;
+    }to{
+        left: -20px;
+    }
+}
+
+.banner__rocket{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    height: 500px;
+    animation: rocket 10s  linear forwards;
+}
+@keyframes rocket{
+    from{
+        top: 500px;
+    }to{
+        top: -1000px;
+    }
+}
+
+.banner__services{
+    
+    text-align: center;
+    font-family: var(--nunito);
+    font-size: var(--parafontsize);
+    font-weight: var(--medium);
+    color: var(--ash);
+    padding-top: 150px;
+}
+
+.banner__service{
+    border: 1px solid #C4C4C4;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin: 0 10px;
+    transition: .3s;
+}
+.banner__service:hover{
+    background: var(--ashlight);
+    color: var(--white);
+}
+
+.banner__hedding{
+    text-align: center;
+    font-family: var(--poppins);
+    font-weight: var(--bold);
+    font-size: 64px;
+    color: var(--white);
+    width: 967px;
+    margin: 0 auto;
+    line-height: 130%;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.banner__hedding--paragraph{
+    text-align: center;
+    font-family: var(--nunito);
+    font-weight: var(--regular);
+    color: var(--ash);
+    width: 780px;
+    line-height: 200%;
+    margin: 0 auto;
+    padding-bottom: 48px;
+}
+
+
+
+/* .servises_images{
+    position: absolute;
+    z-index: 1;
+    
+} */
+
+.servises_images{
+    position: absolute;
+    z-index: 1;
+    transform: translateX(50%);
+    margin-top: 495px;
+}

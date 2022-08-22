@@ -1,0 +1,47 @@
+.footer__part{
+    padding-top: 100px;
+    display: flex;
+    
+}
+.footer__logo{
+    position: absolute;
+}
+.footer__part--left{
+    width: 25%;
+    /* height: 400px;   */
+}
+.footer__paragraph{
+    font-family: var(--nunito);
+    font-weight: var(--regular);
+    font-size: var(--parafontsize);
+    color: var(--black);
+    margin-top: 115px;
+}
+
+.footer__features{
+    margin-top: 100px;
+    margin-left: 212px;
+}
+.footer__subheading{
+    font-family: var(--opensans);
+    font-weight: var(--semibold);
+    font-size: var(--subheading);
+    color: var(--black);
+}
+.footer__subheading--button{
+    font-family: var(--nunito);
+    font-weight: var(--semibold);
+    font-size: var(--parafontsize);
+    color: var(--black);
+    margin-top: 30px;
+
+}
+
+/* .footerLast{
+    display: flex;
+} */
+
+.footerMiddel__part {
+    margin-left: 775px;
+    margin-right: 60px;
+}
